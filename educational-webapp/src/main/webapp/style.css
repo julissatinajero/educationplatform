@@ -44,7 +44,7 @@
     margin: auto;
     padding-bottom: 5px;
     font-family: 'Londrina Shadow';
-    font-size: 25px;
+    font-size: 35px;
 }
 
 #nav-link{
@@ -176,46 +176,63 @@ a, a:visited {
 
 /*CSS for Home Page*/
 #home-background {
-    background-color: rgba(197, 172, 255, 0.466);
+    background-color: rgba(80, 8, 243, 0.62);
 }
 
 #HomeTitle {
     text-align: center;
-    font-size: 325%;
+    font-size: 450%;
     font-family: 'Londrina Shadow';
+    margin-bottom: 0%;
+    padding-top: 2%;
 }
 
 #home-container {
-    background: rgba(255, 224, 251, 0.45);
-    padding: 15px;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    background: rgba(192, 213, 239, 0.68);
+    margin-bottom: 4%;
+    border-radius: .8rem;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
 #purpose-statement {
     text-align: center;
     font-family: 'Margarine';
-    font-size: 140%;
-
-}
-
-.home-nav {
-    margin-top: 150px;
+    font-size: 135%;
+    padding-bottom: 2%;
 }
 
 .fun {
     font-family: 'Londrina Solid';
+    color: rgba(80, 8, 243, 0.5);
 }
 
 #preview-container {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  padding: 5px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding-top: 2%;
+    grid-gap: 30px;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 4%;
 }
+
 .preview-pic {
     border-radius: 1rem;
 }
 
+.preview-description {
+    font-family: 'Margarine';
+    font-size: 135%;
+    padding-top: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
 #preview-item {
     text-align: center;
+    background: rgba(192, 213, 239, 0.68);
+    padding-bottom: 2%;
+    padding-top: 4%;
+    border-radius: .8rem;
 }
