@@ -1,9 +1,10 @@
 /*CSS for Colors Page*/
 @import url(https://fonts.googleapis.com/css?family=Margarine);
 @import url(https://fonts.googleapis.com/css?family=Londrina%20Shadow);
+@import url(https://fonts.googleapis.com/css?family=Londrina%20Solid);
 
 #color-background {
-    background-image: url(images/back.jpg);
+    background-image: url(images/color-page-background.jpg);
     background-position: center center;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -200,4 +201,21 @@ a, a:visited {
 
 .home-nav {
     margin-top: 150px;
+}
+
+.fun {
+    font-family: 'Londrina Solid';
+}
+
+#preview-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 5px;
+}
+.preview-pic {
+    border-radius: 1rem;
+}
+
+#preview-item {
+    text-align: center;
 }
